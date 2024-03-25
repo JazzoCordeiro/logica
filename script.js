@@ -45,3 +45,41 @@ varia = "a variável pode ser alterada de acordo com a necessidade do programa e
 
 console.log(mensagem + varia)
 
+
+/*##########################################################################################################################
+                            TIPOS DE DADOS 
+String:  Sequência de caracteres (texto).
+        Exemplo: "Olá, mundo!", 'JavaScript'
+
+Number:   Representa valores numéricos, tanto inteiros quanto decimais.
+        Exemplo: 10, 3.14, -5
+
+BigInt:  Usado para representar números inteiros muito grandes, que ultrapassam o limite do tipo Number.
+        Exemplo: 1234567890123456789012345678901234567890n
+
+Boleano:   Representa um valor lógico, podendo ser true (verdadeiro) ou false (falso).
+        Exemplo: true, false
+
+Indefinido: Representa uma variável que foi declarada, mas ainda não foi atribuída a um valor.
+    Exemplo: let x; console.log(x); // undefined
+
+Nulo:      Representa a ausência de valor ou um valor nulo. É um tipo primitivo especial.
+    Exemplo: let x = null;
+
+Simbolo:   Representa um valor único e imutável, muitas vezes usado como identificador de propriedades de objetos.
+    Exemplo: let id = Symbol('id');
+
+Objeto:     Objetos são coleções de dados (como propriedades e métodos) e permitem armazenar dados estruturados. 
+Pode ser um objeto simples, um array, uma função ou até mesmo uma instância de uma classe.
+    Exemplo: let pessoa = { nome: "João", idade: 30 };
+-----------------------------------------------------------------------------------------------------------------------
+EXERCÍCIO: Faça um caderno de endereços onde conste nome, idade, telefone, cpf e se está devendo na loja 
+ou não, além disso, coloque o tipo de variável.
+*/
+
+let nome = "Carlos"                      //string
+let idade = 18                           //int
+let telefone = "11-5477-1833"            //string
+let cpf = "320.205.708-19"               //string
+let devedor = true                       //booleana
+
