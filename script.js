@@ -83,3 +83,27 @@ let telefone = "11-5477-1833"            //string
 let cpf = "320.205.708-19"               //string
 let devedor = true                       //booleana
 
+/*##########################################################################################################
+                                VETORES
+        é uma estrutura de dados que armazena uma sequência de elementos do mesmo tipo e podem ser acessados
+    usando um índice, são semelhantes a listas.
+        Existem vários comandos chamados ---MÉTODOS--- que podem alterar arrays, eles são principalmente importantes 
+    quando estamos tratando os dados ou usando APIs, há o POP, MAP, PUSH, LENGHT, SHIFT, FOREACHE e outros. O link 
+    completo para a documentação de arrays e seus métodos é: 
+    https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
+*/
+
+let carlos = ["Carlos", 18, "11-5477-1833", "320.205.708-19", true]
+
+// ou
+
+let pessoa = ["Carlos", "Karina", "Renato", "João"]
+
+//para pegar apenas uma informação dentro de um ARRAY ou VETOR eu devo dizer em que posição está essa informação contando a partir de zero.
+
+console.log(pessoa[1])
+
+pessoa.push("Lilian")
+
+console.log(pessoa)
+
