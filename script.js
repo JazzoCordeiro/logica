@@ -107,3 +107,29 @@ pessoa.push("Lilian")
 
 console.log(pessoa)
 
+/*################################################################################################################
+                                MATRIZES
+            Assim como na matemática, uma matriz é uma estrutura que armazena múltiplos valores em uma estrutura 
+    bidimensional. Em vez de armazenar apenas um valor como uma variável comum, uma matriz armazena uma série de 
+    valores que podem ser acessados por índices. 
+            A matriz é um array só que bidimensional.
+*/
+
+let clientes = [
+    ["Carlos", 18, "11-5477-1833", "320.205.708-19", true],   // Linha 1
+    ["Karina", 25, "11-5544-3321", "123.456.789-00", false],  // Linha 2
+    ["Renato", 30, "11-5333-2233", "987.654.321-00", true]    // Linha 3
+];
+
+console.log("o nosso cliente " + clientes[2][0] + " tem " + clientes[2][1] + " anos, enquanto " + clientes[1][0] + " tem " + clientes[1][1])
+
+let matriz = [
+    [1, "lista com diversos conjutos de informações"],
+    [2, "é considerado uma matriz"],
+    [3, "cada grupo de itens fica dentro de colchetes"],
+    [4, "e é separado por virgulas."],
+    [5, "a matriz é um vetor que contém vetores"],
+    [6, "ou um array que contém arrays."]
+]
+
+console.log(matriz)
