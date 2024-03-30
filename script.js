@@ -133,3 +133,9 @@ let matriz = [
 ]
 
 console.log(matriz)
+
+/*##################################################################################################################################
+                                    OPERADORES LÓGICOS.
+            Lógica é um conhecimento da filosofia e é usado em matemática e em linguagens, além da programação.
+    É preciso compreender que a programação vai se utilizar de simbolos para fazer o que a filosofia faz com palavras, assim como
+    na matemática.
