@@ -139,3 +139,42 @@ console.log(matriz)
             Lógica é um conhecimento da filosofia e é usado em matemática e em linguagens, além da programação.
     É preciso compreender que a programação vai se utilizar de simbolos para fazer o que a filosofia faz com palavras, assim como
     na matemática.
+
++ Adição
+- Subtração
+* Multiplicação
+/ Divisão
+% Módulo (resto da divisão)
+** Exponenciação (disponível no ES6)
+== Igualdade (compara apenas os valores)
+=== Igualdade estrita (compara valores e tipos)
+!= Desigualdade (compara apenas os valores)
+!== Desigualdade estrita (compara valores e tipos)
+> Maior que
+< Menor que
+>= Maior ou igual a
+<= Menor ou igual a
+= Atribuição simples
++= Atribuição com adição
+-= Atribuição com subtração
+*= Atribuição com multiplicação
+/= Atribuição com divisão
+%== Atribuição com módulo
+**= Atribuição com exponenciação (ES6)
+*/
+
+let age = 30
+
+console.log(age)
+
+age = age + 6
+
+console.log(age)
+
+age = 36 - 6
+
+console.log(age)
+
+age += 6
+
+console.log(age)
