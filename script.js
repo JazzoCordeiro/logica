@@ -178,3 +178,17 @@ console.log(age)
 age += 6
 
 console.log(age)
+
+let marca = "apple"
+
+console.log(marca == "samsung")
+
+//Exercicio: Condições para vencer um jogo, ter 100 moedas ou mais e coletar o objeto estrela.
+
+let moedasColetadas = 101
+let itam = "estrela"
+let resultado = (moedasColetadas >= 100) && (item === "estrela")
+
+/*########################################################################################################################
+                                Condicionais IF, ELSE, ELSE IF
+*/
