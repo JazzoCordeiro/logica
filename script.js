@@ -186,9 +186,55 @@ console.log(marca == "samsung")
 //Exercicio: Condições para vencer um jogo, ter 100 moedas ou mais e coletar o objeto estrela.
 
 let moedasColetadas = 101
-let itam = "estrela"
+let item = "estrela"
 let resultado = (moedasColetadas >= 100) && (item === "estrela")
+console.log(resultado)
 
 /*########################################################################################################################
                                 Condicionais IF, ELSE, ELSE IF
+        Os condicionais executam o código quando uma certa condição é atingida, por exemplo:
+        SE a Camila for mais velha que Helena, ele vai dizer que Camila é mais velha.
+        SENÃO ele vai dizer que Helena é mais velha.
 */
+ 
+let maioridade = ""
+let camila = 20
+let helena = 15
+
+if (camila > helena) {maioridade = "Camila é mais velha que Helena"}
+
+else {
+    maioridade = "Helena é mais velha que camila."
+}
+
+console.log(maioridade)
+
+//-------------------------------------------------------------------------------------------------------
+
+function calcularMedia() {
+
+let nota1 = parseFloat(document.getElementById("nota1").value)
+let nota2 = parseFloat(document.getElementById("nota2").value)
+let nota3 = parseFloat(document.getElementById("nota3").value)
+let nota4 = parseFloat(document.getElementById("nota4").value)
+
+let letivo = ""
+let media = (nota1 + nota2 + nota3 + nota4) / 4
+
+if (media < 5){
+    letivo = "O aluno foi reprovado pois sua média geral é de" + media
+}
+
+else if (media === 5){
+    letivo = "O aluno está em recuperação pois sua média geral foi de" + media
+}
+
+else if (media > 5 && media < 9){
+    letivo = "O aluno foi aprovado pois sua média geral foi de" + media
+}
+
+else if (media >= 9){
+    letivo = "O aluno foi aprovado com mérito pois sua média geral é de" + media
+}
+alert(letivo)
+}
