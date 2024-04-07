@@ -238,3 +238,43 @@ else if (media >= 9){
 }
 alert(letivo)
 }
+
+
+/*########################################################################################################################
+                                Condicionais SWITCH CASE
+        O switch case serve para substituir o if else, principalmente quando há muitas opções.
+    Ele é uma estrutura de decisão e precisa de um break para não entrar em looping assim como precisa de uma resposta padrão
+    chamada de DEFAULT para quando nenhuma opção se aplicar.
+*/
+
+function vitaSuco() {
+
+let fruta = document.getElementById('fruta').value
+
+switch (fruta){
+    case "laranja":
+    case "limão":
+    case "jabiticaba":
+    case "melancia":
+    case "melão":
+    alert("a fruta escolhida é " + fruta + " e ela é boa para fazer suco.")
+    break
+
+    case "banana":
+    case "mamão":
+    case "graviola":
+    case "manga":
+    case "abacate":
+    alert("a fruta escolhida é " + fruta + " e ela é boa para fazer vitamina.")
+    break
+
+    case "morango":
+    case "pera":
+    case "abacaxi":
+    case "maçã":
+        alert("a fruta escolhida é " + fruta + " e ela é boa para fazer vitaminas e sucos.")
+
+}
+}
+
+/*########################################################################################################################
