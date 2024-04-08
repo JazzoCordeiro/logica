@@ -278,3 +278,10 @@ switch (fruta){
 }
 
 /*########################################################################################################################
+                                        FOR, WHILE E DO WHILE
+        São laços de repetição, eles servem para que uma ção seja repetida infititamente ou até que uma condição especifica 
+    seja alcançada.
+*/
+
+for (let contador = 0; contador < 4; contador ++){console.log(contador + " somando mais 1 ao contador")} 
+/*declaro a variavel contador com valor 0, o FOR manda ela adicionar +1 cada vez que rodar o código enquanto ela for menor que 4.*/
