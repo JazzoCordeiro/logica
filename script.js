@@ -285,3 +285,9 @@ switch (fruta){
 
 for (let contador = 0; contador < 4; contador ++){console.log(contador + " somando mais 1 ao contador")} 
 /*declaro a variavel contador com valor 0, o FOR manda ela adicionar +1 cada vez que rodar o código enquanto ela for menor que 4.*/
+
+
+let ganho
+//FOR (VARIAVEL QUE VAI RECEBER O LOOP + CONDIÇÃO PARA SAIR DO LOOP + COMO INCREMENTAR O CONTADOR){DELIMITAR O ESCOPO DO FOR}
+  for (let conta = 0; conta < 11; conta++){ ganho += 1 
+    console.log(conta + " e somando +1 vai aumentar para:")}
