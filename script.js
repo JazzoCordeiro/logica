@@ -291,3 +291,10 @@ let ganho
 //FOR (VARIAVEL QUE VAI RECEBER O LOOP + CONDIÇÃO PARA SAIR DO LOOP + COMO INCREMENTAR O CONTADOR){DELIMITAR O ESCOPO DO FOR}
   for (let conta = 0; conta < 11; conta++){ ganho += 1 
     console.log(conta + " e somando +1 vai aumentar para:")}
+
+//----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
