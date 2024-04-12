@@ -302,4 +302,14 @@ while (saudacao < 3) {
 } 
 
 
+let passos = 1
 
+while (passos < 6) {
+    console.log(`passo ${passos}`)
+    passos++
+    
+}
+
+
+/*Enquanto o FOR vai repetir uma condição e adicionar isso à variável, o WHILE vai repetir a variável até chegar na 
+condição. O DO WHILE vai executar ao menos uma vez o que for de seu escopo, enquanto o while não.*/
