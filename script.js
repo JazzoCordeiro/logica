@@ -359,3 +359,7 @@ function rankHeroi() {
         alert("Aparentemente você colocou alguma informação errada, por favor verifique novamente.")
     }
 }
+
+/*##############################################################################################################################
+                                    FUNÇÕES
+*/
