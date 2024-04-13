@@ -317,20 +317,45 @@ condição. O DO WHILE vai executar ao menos uma vez o que for de seu escopo, en
 
 //DESAFIO DO FELIPÃO
 
-let heroi = "Domenico Danubio"
-let exp = 5000
-
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 5.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
 
 
-switch (rankHeroi){
-    case (exp < 1000):
-        alert(`O herói ${heroi} é de rank ferro`)
-    break}
+function rankHeroi() {
+    let heroi = document.getElementById('nomeHeroi').value
+    let exp = parseFloat(document.getElementById('xpHeroi').value)
+
+    if (exp <= 1000) {
+        alert(`O herói ${heroi} é de rank Ferro`)
+    }
+
+    else if (exp >= 1001 && exp <= 2000){
+        alert(`O herói ${heroi} é de rank Bronze`)
+    }
+
+    else if (exp >= 2001 && exp <= 5000){
+        alert(`O herói ${heroi} é de rank Prata`)
+    }
+
+    else if (exp >= 5001 && exp <= 7000){
+        alert(`O herói ${heroi} é de rank Ouro`)
+    }
+
+    else if (exp >= 7001 && exp <= 8000){
+        alert(`O herói ${heroi} é de rank Platina`)
+    }
+
+    else if (exp >= 8001 && exp <= 9000){
+        alert(`O herói ${heroi} é de rank Ascendente`)
+    }
+
+    else if (exp >= 9001 && exp <= 10000){
+        alert(`O herói ${heroi} é de rank Imortal`)
+    }
+    
+    else if (exp >=10001){
+        alert(`O herói é ${heroi} é de nivel Radiante`)
+    }
+
+    else {
+        alert("Aparentemente você colocou alguma informação errada, por favor verifique novamente.")
+    }
+}
