@@ -362,4 +362,24 @@ function rankHeroi() {
 
 /*###########################################################################################################################
                                     FUNÇÕES
+            Uma função pode ter uma entrada (input), uma ação e uma saída (output), mas somente a ação é obrigatória.
+
+            Primeiro eu chamo a função, ou seja, eu peço que ela seja executada em algum lugar do meu código.
+Declaro a função - nomeio a função(insiro paramêtros ou não) {insiro a ação que a função deve exercer}
+posso usar essa função quantas vezes eu quiser.
+
+            É possível chamar uma função dentro de outra função.
 */
+
+torradeira()  //estou pedindo para a função ser executada
+
+//declaro func. nomeio func. (não passei parametros/input) {dei uma ação para ela que ao mesmo tempo é um output e é mostrada quando peço para executar}
+function torradeira(){
+    console.log("preparar torrada")
+    avisar()
+}
+
+function avisar() {
+    console.log("a torrada está pronto")
+    console.log("fim do processo")
+}
