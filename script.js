@@ -635,3 +635,14 @@ function numerada(nume1, nume2){
 
 numerada(8, 6)
 numerada(15, 25)
+
+//=====
+
+function somei(numa1, numa2){
+let resulta = numa1 + numa2
+return resulta
+}
+
+let resultei = somei(10, 7)
+
+console.log(resultei)
