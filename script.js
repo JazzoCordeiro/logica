@@ -646,3 +646,15 @@ return resulta
 let resultei = somei(10, 7)
 
 console.log(resultei)
+
+function divida(receita, gastos){
+    if(receita > gastos){
+        return "está tudo bem"
+    }else{
+        return "Xi, ferrou!"
+    }
+}
+
+let jana = divida(3000, 1800)
+
+console.log(`Jana, ${jana}`)
