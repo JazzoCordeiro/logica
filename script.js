@@ -369,6 +369,8 @@ Declaro a função - nomeio a função(insiro paramêtros ou não) {insiro a aç
 posso usar essa função quantas vezes eu quiser.
 
             É possível chamar uma função dentro de outra função.
+
+            Usar sempre um nome ligado à ação que a função faz para facilitar o seu entendimento.
 */
 
 torradeira()  //estou pedindo para a função ser executada
