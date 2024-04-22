@@ -389,3 +389,12 @@ function avisar() {
 }
 
 //parando com o curso da DIO.ME para dar uma olhada no curso do Guanabara e comparar os conteúdos.
+
+function parimp(numero) {
+    if (numero%2==0){
+        console.log("par");
+    } else {
+        console.log("impar");
+    }}
+
+    let res = parimp(11)
