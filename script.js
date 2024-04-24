@@ -392,9 +392,10 @@ function avisar() {
 
 function parimp(numero) {
     if (numero%2==0){
-        console.log("par");
+        return "par";
     } else {
-        console.log("impar");
+        return "impar";
     }}
 
     let res = parimp(11)
+    console.log(res)
