@@ -399,3 +399,5 @@ function parimp(numero) {
 
     let res = parimp(11)
     console.log(res)
+
+    console.log(parimp(46))
