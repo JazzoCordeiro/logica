@@ -401,3 +401,24 @@ function parimp(numero) {
     console.log(res)
 
     console.log(parimp(46))
+
+    //-----------
+
+    function soma (n1, n2) {
+        return n1 + n2
+    }
+
+    function subtra (n1, n2) {
+        return n1 - n2
+    }
+
+    console.log(soma(7, 3))
+    console.log (subtra(7, 3))
+
+    //--------
+
+    let multi = function(incog) {
+        return incog * 2
+    }
+
+    console.log (multi(5))
