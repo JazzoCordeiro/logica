@@ -420,5 +420,16 @@ function parimp(numero) {
     let multi = function(incog) {
         return incog * 2
     }
-
     console.log (multi(5))
+
+//-------------------------
+
+function fatorial(n) {
+    if (n==1) {
+        return 1;
+    } else {
+        return n* fatorial(n-1)
+    }
+}
+
+console.log(fatorial(5))
