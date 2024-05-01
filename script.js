@@ -435,3 +435,4 @@ function fatorial(n) {
 console.log(fatorial(5))
 
 //---------------------------------------------------------VOLTANDO AO CURSO DA DIO.ME
+
