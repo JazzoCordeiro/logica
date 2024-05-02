@@ -434,5 +434,13 @@ function fatorial(n) {
 
 console.log(fatorial(5))
 
-//---------------------------------------------------------VOLTANDO AO CURSO DA DIO.ME
+//-------------------------------VOLTANDO AO CURSO DA DIO.ME
+
+torrar("pão de forma", "Maria")
+
+function torrar(pao, nome){
+    console.log("torrada feita com " + pao + " para " + nome)
+
+}
+
 
