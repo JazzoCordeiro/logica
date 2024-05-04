@@ -436,10 +436,11 @@ console.log(fatorial(5))
 
 //-------------------------------VOLTANDO AO CURSO DA DIO.ME
 
-torrar("pão de forma", "Maria")
+torrar("pão de forma", "Maria", 10.90)
 
-function torrar(pao, nome){
+function torrar(pao, nome = "Cliente", valor){
     console.log("torrada feita com " + pao + " para " + nome)
+    console.log("a conta deu: " + valor)
 
 }
 
