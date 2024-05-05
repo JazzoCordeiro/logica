@@ -4,6 +4,7 @@ Variáveis são informações que PODEM MUDAR OU RECEBER NOVOS VALORES de acordo
 */
 
 const { setImmediate } = require("timers/promises")
+const { parseArgs } = require("util")
 
 console.log("digite o nome do seu jogador.")
 
@@ -444,4 +445,12 @@ function torrar(pao, nome = "Cliente", valor){
 
 }
 
+/*-------------------
+exemplo de interpolação de string é quando você usa no js o ${e coloca aqui uma variavel}, esta estrutura é boa 
+para pegar várias informações de diferentes e reutiliza-las.*/
 
+createStringConnection("db_products", "Ricardo", "55986")
+
+function createStringConnection(dataBaseName, user, password) {
+    console.log(`connect:DBCONNECT;user=${user};password=${password};initial_database=${dataBaseName}`)
+}
