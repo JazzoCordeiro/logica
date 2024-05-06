@@ -454,3 +454,8 @@ createStringConnection("db_products", "Ricardo", "55986")
 function createStringConnection(dataBaseName, user, password) {
     console.log(`connect:DBCONNECT;user=${user};password=${password};initial_database=${dataBaseName}`)
 }
+
+
+//----------funções com retorno
+
+
