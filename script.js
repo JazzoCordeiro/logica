@@ -456,6 +456,13 @@ function createStringConnection(dataBaseName, user, password) {
 }
 
 
-//----------funções com retorno
+//----------funções com retorno/output
+let result = soma(5, 10)
 
+console.log("o resultado dessa função é: " + result)
+
+function soma(numA, numB){
+    let somatorio = numA + numB
+    return somatorio
+}
 
