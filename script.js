@@ -311,6 +311,9 @@ while (passos < 6) {
     
 }
 
+//------------ Voltando para fazer mais exercicios de repetição
+
+
 
 /*Enquanto o FOR vai repetir uma condição e adicionar isso à variável, o WHILE vai repetir a variável até chegar na 
 condição. O DO WHILE vai executar ao menos uma vez o que for de seu escopo, enquanto o while não.*/
