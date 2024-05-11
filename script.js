@@ -468,10 +468,11 @@ function soma(numA, numB){
 
 let userName = getName("Maria dos Anjos")
 console.log("sejam bem vindo(a) " + userName)
-userName = getName("Renato-Augusto-Silva")
+userName = getName("Renato-Augusto-Silva", "-")
 console.log("sejam bem vindo(a) " + userName)
 
-function getName(name, splitchar){
+
+function getName(name, splitchar = " "){
     let firstName = name.split(splitchar)[0]
     return firstName
 }
