@@ -312,7 +312,7 @@ while (passos < 6) {
 }
 
 //------------ Voltando para fazer mais exercicios de repetição
-
+function contar()
 
 
 /*Enquanto o FOR vai repetir uma condição e adicionar isso à variável, o WHILE vai repetir a variável até chegar na 
