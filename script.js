@@ -312,7 +312,16 @@ while (passos < 6) {
 }
 
 //------------ Voltando para fazer mais exercicios de repetição
-function contar()
+function contar(){
+    let inicio = document.getElementById(`inicio`).value
+    let fim = document.getElementById(`fim`).value
+    let passo = document.getElementById(`passo`).value
+
+    if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+        window.alert('[ERRO] Faltam dados!')
+    }
+
+}
 
 
 /*Enquanto o FOR vai repetir uma condição e adicionar isso à variável, o WHILE vai repetir a variável até chegar na 
