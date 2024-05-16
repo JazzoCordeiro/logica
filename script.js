@@ -312,15 +312,26 @@ while (passos < 6) {
 }
 
 //------------ Voltando para fazer mais exercicios de repetição
+
+
 function contar(){
-    let inicio = document.getElementById(`inicio`).value
-    let fim = document.getElementById(`fim`).value
-    let passo = document.getElementById(`passo`).value
+    let inicio = document.getElementById('inicio').value
+    let fim = document.getElementById('fim').value
+    let passo = document.getElementById('passo').value
+    let results = document.getElementById('results')
 
-    if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+    if (inicio.length == 0 || fim.length == 0 || passo.length == 0) {
         window.alert('[ERRO] Faltam dados!')
-    }
+    } else {
+        results.innerHTML = 'Contando: '
+        let ini = Number(inicio)
+        let fini = Number(fim)
+        let pas = Number(passo)
 
+        for(let contagem = ini; contagem <= fini; contagem += pas) {
+            results.innerHTML += `${contagem} <br>`
+        }
+    }
 }
 
 
