@@ -323,15 +323,22 @@ function contar(){
     if (inicio.length == 0 || fim.length == 0 || passo.length == 0) {
         window.alert('[ERRO] Faltam dados!')
     } else {
-        results.innerHTML = 'Contando: '
         let ini = Number(inicio)
         let fini = Number(fim)
         let pas = Number(passo)
 
-        for(let contagem = ini; contagem <= fini; contagem += pas) {
-            results.innerHTML += `${contagem} <br>`
+        if (ini < fini) {
+            for(let contagem = ini; contagem <= fini; contagem += pas) {
+                results.innerHTML += `${contagem}`
+            }
+        } else {
+            for(let contagem = ini; contagem >= fini; contagem -= pas){
+                results.innerHTML += `${contagem}`
+            }
         }
-    }
+
+
+        }       
 }
 
 
