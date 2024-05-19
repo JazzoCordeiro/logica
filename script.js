@@ -507,3 +507,7 @@ function getName(name, splitchar = " "){
     return firstName
 }
 
+/*-------------------------------------------------
+Desafio de código do Felipão da DIO.
+
+*/
