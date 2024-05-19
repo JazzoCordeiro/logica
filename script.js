@@ -659,4 +659,13 @@ let jana = divida(3000, 1800)
 
 console.log(`Jana, ${jana}`)
 
-//--------
+//-------- ARROW FUNCTION
+
+let nomeie = () => {
+    console.log("carlota")
+}
+
+nomeie()
+
+//------
+
