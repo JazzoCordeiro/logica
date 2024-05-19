@@ -658,3 +658,5 @@ function divida(receita, gastos){
 let jana = divida(3000, 1800)
 
 console.log(`Jana, ${jana}`)
+
+//--------
