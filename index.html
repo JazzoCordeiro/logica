@@ -7,18 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-
-    <section>
-        <div id="dados">
-            <p>Início: <input type="number" id="inicio"></p>
-            <p>Fim: <input type="number" id="fim"></p>
-            <p>Passo: <input type="number" id="passo"></p>
-            <button type="button" onclick="contar()">Contar Agora!</button>
-        
-        </div>
-        <div id="results">
-        </div>
-    </section>
     <h1>Calculadora de Média</h1>
 
     <form id="formNotas">
@@ -65,6 +53,27 @@
     
 
 
+<section>
+    <div id="dados">
+        <p>Início: <input type="number" id="inicio"></p>
+        <p>Fim: <input type="number" id="fim"></p>
+        <p>Passo: <input type="number" id="passo"></p>
+        <button type="button" onclick="contar()">Contar Agora!</button>
+    
+    </div>
+    <div id="results">
+    </div>
+</section>
+
+<br>
+<label for="nome do heroi">Nome do Herói:</label>
+<input type="string" id="nameHeroi" required><br><br>
+<label for="número de vitórias">Número de vitórias em batalha:</label>
+<input type="number" id="winHeroi" required><br><br>
+<label for="número de derrotas">Número de derrotas do herói:</label>
+<input type="number" id="loseHeroi" required><br><br>
+<p>NÃO MINTA!</p>
+<button type="button" onclick="vitHeroi()">Descobrir</button>
 
 
 </body>
