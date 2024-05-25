@@ -529,3 +529,15 @@ Se vitórias for entre 91 e 100= Lendário
 Se vitórias for maior ou igual a 101 = Imortal
 */
 
+
+function vitHeroi(){
+let vit = parseFloat(document.getElementById('winHeroi').value)
+let lose = parseFloat(document.getElementById('loseHeroi').value)
+let char = document.getElementById('nameHeroi').value
+
+function ranked(vit, lose){
+    return vit - lose
+}
+
+var ranking = ranked(vit, lose)
+
