@@ -541,3 +541,24 @@ function ranked(vit, lose){
 
 var ranking = ranked(vit, lose)
 
+if (ranking <= 10) {
+    alert(`${char}` + " é do rank Ferro e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking > 11 && ranking <= 20){    
+    alert(`${char}` + " é do rank Bronze e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking > 21 && ranking <= 50){
+        alert(`${char}` + " é do rank Prata e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking > 51 && ranking <= 80){    
+    alert(`${char}` + " é do rank Ouro e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking > 81 && ranking <= 90){    
+    alert(`${char}` + " é do rank Diamante e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking > 91 && ranking <= 100){    
+    alert(`${char}` + " é do rank Lendário e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking >= 101){    
+    alert(`${char}` + " é do rank Imortal e conta com " + `${ranking}` + "vitórias!")
+}else if(ranking < 0){
+    alert(`${char}` + " deveria se aposentar...")
+}
+else{
+    alert("Dados inválidos")
+}
+}
