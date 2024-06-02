@@ -570,3 +570,7 @@ else{
 //contagem de experiência vem após a derrota do inimigo.
 
 const xpganho = nivelDoMonstro + dificuldade * 100
+
+
+
+
