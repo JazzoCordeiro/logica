@@ -569,7 +569,13 @@ else{
 
 //contagem de experiência vem após a derrota do inimigo.
 
-const xpganho = nivelDoMonstro + dificuldade * 100
+//const xpganho = nivelDoMonstro + dificuldade * 100
+
+//revendo vetores.
+
+let num = [5 , 8, 1, 9, 3, 7, 2]
+
+console.log(`Este vetor tem ${num.length} posições.`)
 
 
 
