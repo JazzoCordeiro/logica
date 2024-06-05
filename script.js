@@ -577,6 +577,8 @@ let num = [5 , 8, 1, 9, 3, 7, 2]
 
 console.log(`Este vetor tem ${num.length} posições.`)
 
+console.log(`Para conseguir o segundo valor do vetor que é ${num[1]} preciso colocar 1 entre chaves, indicando que é a segunda casa`)
 
+console.log(`Já que começamos a contar por 0 o numero de casas, assim o nº ${num[0]}, é o primeiro valor do vetor e está na casa 0.`)
 
 
