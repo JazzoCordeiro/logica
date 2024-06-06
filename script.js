@@ -581,4 +581,16 @@ console.log(`Para conseguir o segundo valor do vetor que é ${num[1]} preciso co
 
 console.log(`Já que começamos a contar por 0 o numero de casas, assim o nº ${num[0]}, é o primeiro valor do vetor e está na casa 0.`)
 
+num.push(1)
+console.log(`Acabamos de acidionar um elemento ao array usando push, o array agora tem ${num.length} posicções e ${num[num.length - 1]} é o último número dentro do array`)
 
+
+
+function calcPeso(){
+
+let altura = document.getElementById('altura').value
+
+let pesoIdeal = (72.7 * altura) - 58
+
+alert(`O seu peso ideal é ${pesoIdeal}`)
+}
