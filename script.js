@@ -594,3 +594,4 @@ let pesoIdeal = (72.7 * altura) - 58
 
 alert(`O seu peso ideal é ${pesoIdeal}`)
 }
+
