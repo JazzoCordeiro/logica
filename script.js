@@ -584,7 +584,18 @@ console.log(`Já que começamos a contar por 0 o numero de casas, assim o nº ${
 num.push(1)
 console.log(`Acabamos de acidionar um elemento ao array usando push, o array agora tem ${num.length} posicções e ${num[num.length - 1]} é o último número dentro do array`)
 
+console.log("O nosso vetor/array está com a seguinte ordem " + num)
+num.sort()
+console.log("E depois de usar o sort ele ficou na seguinte ordem " + num)
 
+
+
+
+
+
+
+
+//EXERCICIOS DIFERENTES.
 
 function calcPeso(){
 
