@@ -588,6 +588,11 @@ console.log("O nosso vetor/array está com a seguinte ordem " + num)
 num.sort()
 console.log("E depois de usar o sort ele ficou na seguinte ordem " + num)
 
+for(let pos=0; pos<num.length; pos++){
+    console.log(num[pos])
+}
+
+
 
 
 
