@@ -589,7 +589,7 @@ num.sort()
 console.log("E depois de usar o sort ele ficou na seguinte ordem " + num)
 
 for(let pos=0; pos<num.length; pos++){
-    console.log(num[pos])
+    console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }
 
 
