@@ -603,7 +603,7 @@ function parimp(n) {
     }else{console.log("impar")}
 }
 
-
+let resu = parimp(11)
 
 //EXERCICIOS DIFERENTES.
 
