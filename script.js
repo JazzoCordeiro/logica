@@ -626,3 +626,11 @@ function digaMeuNome(nomear){
 digaMeuNome("Joaquim")
 digaMeuNome("Aline")
 digaMeuNome("Henrique")
+//---------
+
+function numerada(nume1, nume2){
+    const resultado = nume1 + nume2
+    console.log(resultado)
+}
+
+numerada(8, 6)
