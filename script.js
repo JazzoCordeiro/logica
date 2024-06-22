@@ -617,3 +617,12 @@ alert(`O seu peso ideal é ${pesoIdeal}`)
 }
 
 //=======
+
+
+function digaMeuNome(nomear){
+    console.log(nomear)
+}
+
+digaMeuNome("Joaquim")
+digaMeuNome("Aline")
+digaMeuNome("Henrique")
