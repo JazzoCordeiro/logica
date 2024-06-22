@@ -673,3 +673,5 @@ nomeie()
 ser reutilizada, ela serve como uma forma de abstração para encapsular lógica complexa. Isso significa que você pode dividir 
 o seu código em pequenos blocos independentes e reutiliza-los mesmo dentro de outras funções. 
 */
+
+
