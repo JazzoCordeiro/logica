@@ -634,3 +634,4 @@ function numerada(nume1, nume2){
 }
 
 numerada(8, 6)
+numerada(15, 25)
