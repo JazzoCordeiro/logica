@@ -667,6 +667,9 @@ let nomeie = () => {
 
 nomeie()
 
+
+
+
 //------
 
 /* funções tem ações que podem ser desde um if else, até dar novo valor a variaveis. Ela ajuda a manter o código limpo, ela pode
@@ -674,4 +677,20 @@ ser reutilizada, ela serve como uma forma de abstração para encapsular lógica
 o seu código em pequenos blocos independentes e reutiliza-los mesmo dentro de outras funções. 
 */
 
+
+/*exemplo de arrow function: ela cria a variavel e a função ao mesmo tempo. Excelentes para Preservar o valor de this,
+Quando você precisa preservar o valor de this no contexto em que a função foi criada (ex.: dentro de métodos de objetos 
+ ou callbacks em eventos assíncronos), as Arrow Functions são ideais. Funções de array: Ao usar métodos como map(), filter()
+  ou reduce(), as Arrow Functions são muito úteis, tornando o código mais enxuto e legível.
+  Quando NÃO usar Arrow Functions?
+
+    Funções com this dinâmico: Se você precisa de uma função onde o valor de this seja dinâmico e alterado pelo contexto de 
+    execução (como em métodos de objetos que usam this), você deve usar uma função tradicional. A Arrow Function não 
+    funciona bem quando o this precisa ser alterado dinamicamente.
+  */
+
+const nomeDaFuncao = (parametros) => {
+    // corpo da função
+    return resultado;
+};
 
