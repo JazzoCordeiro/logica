@@ -687,6 +687,8 @@ Quando você precisa preservar o valor de this no contexto em que a função foi
     Funções com this dinâmico: Se você precisa de uma função onde o valor de this seja dinâmico e alterado pelo contexto de 
     execução (como em métodos de objetos que usam this), você deve usar uma função tradicional. A Arrow Function não 
     funciona bem quando o this precisa ser alterado dinamicamente.
+
+    Na arrow function eu não preciso criar um return, ela naturalmente irá retornar.
   */
 
 const nomeDaFuncao = (parametros) => {
@@ -695,5 +697,3 @@ const nomeDaFuncao = (parametros) => {
 };
 
 /*######################################################################################################################
-
-
