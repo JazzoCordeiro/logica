@@ -698,4 +698,14 @@ const nomeDaFuncao = (parametros) => {
 
 /*######################################################################################################################
 Revendo operadores
+revendo if else simplificado com operadores ternarios
 */
+
+var idad, eleitor, resultas;
+
+idad = 71
+eleitor = (idad < 18) ? "Não pode votar" : "Sim, já pode votar"
+
+results = (idad === 65 || idad === 72)
+
+console.log(eleitor)
