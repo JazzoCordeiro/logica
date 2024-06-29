@@ -709,3 +709,7 @@ eleitor = (idad < 18) ? "Não pode votar" : "Sim, já pode votar"
 results = (idad === 65 || idad === 72)
 
 console.log(eleitor)
+
+/*#########################################################################################################################
+continuando revisão de função
+*/
