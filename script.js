@@ -765,6 +765,9 @@ exemplo:
 propriedade: function() {
 return "retornar apenas uma infor" + this.propriedadeQueEuQuero}
 
+
+
+
 ###########################################################################################################################
 */ 
 
