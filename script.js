@@ -713,3 +713,10 @@ console.log(eleitor)
 /*#########################################################################################################################
 continuando revisão de função
 */
+
+function paraCelsius(valorFahrenheit){
+    return(5/9) * (valorFahrenheit - 32)
+}
+var fahr = paraCelsius(77)
+
+console.log("A temperatura é de " + fahr + "graus")
