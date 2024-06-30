@@ -766,6 +766,16 @@ propriedade: function() {
 return "retornar apenas uma infor" + this.propriedadeQueEuQuero}
 
 
+Os valores dentro de um objeto são chamados PROPRIEDADES
+As funções dentro de um objeto são os MÉTODOS
+
+ex:
+
+const carro = {
+    marca: "ford",
+    modelo: "ka",
+propriedade                metodo
+buzina:                    function() { console.log("bibi"); },                   
 
 
 ###########################################################################################################################
