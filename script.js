@@ -720,3 +720,17 @@ function paraCelsius(valorFahrenheit){
 var fahr = paraCelsius(77)
 
 console.log("A temperatura é de " + fahr + "graus")
+
+
+/*repassando informações
+primeiro eu coloco a palavra function  + o nome da função, dai entre parenteses eu coloco os parametros, parametros são 
+valores, depois eu coloco a ação que eu quero que aquela função execute. Por fim, eu posso chamar a função onde eu quiser.
+*/
+
+function teste(valor1, valor2){
+    return  valor1 + valor2
+}
+
+console.log(teste(2,3))
+
+console.log(teste("pode ser texto", "também"))
