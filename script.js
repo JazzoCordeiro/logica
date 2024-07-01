@@ -778,6 +778,19 @@ propriedade                metodo
 buzina:                    function() { console.log("bibi"); },                   
 
 
+as formas de adicionar entradas a um objeto são:
+
+nome do objeto.propriedade = valor da notação de ponto
+carro.cor = "vermelho"
+
+nome do objet[propriedade] = valor a ser adicionado
+
+é possível criar um método dentro do objeto para retornar duas propriedades ou mais usando o THIS.
+ex. 
+
+propriedade:  Metodo  {return this.propriedadeDesejada + thispropriedadeDesejada2;}
+
+
 ###########################################################################################################################
 */ 
 
@@ -792,8 +805,8 @@ const carro = {
     modelo: "ka",
     ano: "2015",
     placa: "DFA1530",
-    buzina: function() { console.log("bibi"); }, //método dentro do objeto
-    completo: function(){ return "a marca é " + this.marca + " e o modelo é " + this.modelo}
+    buzina: function() {alert("bibi");}, //método dentro do objeto
+    completo: function(){return "a marca é " + this.marca + " e o modelo é " + this.modelo}
 }
 
 console.log(carro)
@@ -811,3 +824,10 @@ carro.freio = freiada
 console.log(carro.freio())
 
 console.log(carro.completo())
+
+
+/*#####################################################################################################################
+
+
+########################################################################################################################
+*/
