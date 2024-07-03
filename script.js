@@ -733,4 +733,4 @@ function teste(valor1, valor2){
 
 console.log(teste(2,3))
 
-console.log(teste("pode ser texto", "também"))
+console.log(teste("pode ser texto ", "também"))
