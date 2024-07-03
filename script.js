@@ -827,7 +827,25 @@ console.log(carro.completo())
 
 
 /*#####################################################################################################################
+Existem muitos EVENTOS que nos ajudam tanto a criar websites como jogos também, eles servem para todo tipo de coisas.
+Um evento pode chamar uma função no JAVASCRIPT ou até uma modificação no CSS.
 
-
+onclick -> Dispara uma função quando um botão é clicado.
+ondblclick -> Dispara uma função quando há duplo clique.
+onmouseover -> Dispara quando o mouse passa por cima do elemento, geralmente usado no CSS.
+onmouseout -> Disparado quando o mouse é movido para FORA do elemento.
+onmousemove -> Disparado quando o mouse é movido dentro do elemento.
+onmousedown -> Disparado quando o clique é pressionado e antes de soltar, por exemplo, pode ser usado para pulos em jogos.
+onmouseup -> Disparado apenas quando o clique é soltado, por exemplo em um jogo, se usar o mousedown para puxar um estilingue e o onmouseup para soltar a pedra e aplicar a força.
+onmouseenter -> Dispara quando o mouse entra no elemento.
+onmouseleave -> Dispara quando o mouse SAI do elemento.
+onfocus -> Disparado quando o elemento recebe é selecionado ou ativado pelo usuário.
+onchange -> Disparado quando existe uma mudança de conteúdo. Por exemplo a pessoa muda alguma info e esquece de salvar, dai aparece uma mensagem perguntando se a pessoa quer sair sem salvar.
+onblur -> Disparado quando o elemento perde foco.
+onkeydown -> Disparado quando uma tecla é pressionada e antes de ela ser solta.
+onkeypress -> Disparado quando uma tecla é pressionada e solta.
+onkeyup -> Disparado quando uma tecla pressionada é solta.
+onload -> Disparado quando a página termina de ser carregada.
+onresize -> Disparado quando há um redimensionamento da janela.
 ########################################################################################################################
 */
