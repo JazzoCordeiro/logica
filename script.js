@@ -3,8 +3,8 @@
 Variáveis são informações que PODEM MUDAR OU RECEBER NOVOS VALORES de acordo com o input ou circunstancias do próprio código.
 */
 
-const { setImmediate } = require("timers/promises")
-const { parseArgs } = require("util")
+//const {setImmediate} = require("timers/promises")
+//const {parseArgs} = require("util")
 
 console.log("digite o nome do seu jogador.")
 
@@ -849,3 +849,7 @@ onload -> Disparado quando a página termina de ser carregada.
 onresize -> Disparado quando há um redimensionamento da janela.
 ########################################################################################################################
 */
+
+function clicada(){
+    alert("funcionou o evento onclick")
+}
