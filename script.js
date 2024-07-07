@@ -735,6 +735,11 @@ console.log(teste(2,3))
 
 console.log(teste("pode ser texto ", "também"))
 
+/*Se usar LET ou CONST dentro de uma função, eu não poderei altera-la em escopo global. Se eu usar VAR e declarar ela FORA da função,
+ou seja, no escopo GLOBAL, eu consigo alterar depois e por fim, eu consigo utilizar/modificar o VAR também se for uma função dentro
+de outra.
+*/
+
 
 /*#########################################################################################################################
 
