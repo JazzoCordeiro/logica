@@ -853,3 +853,7 @@ onresize -> Disparado quando há um redimensionamento da janela.
 function clicada(){
     alert("funcionou o evento onclick")
 }
+
+function doubleClick(){
+    alert("funcionou o evento de DBLlick")
+}
