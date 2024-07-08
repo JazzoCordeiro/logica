@@ -742,5 +742,7 @@ de outra.
 
 
 /*#########################################################################################################################
-
+A grosso modo, um objeto é basicamente uma variavel com muitos valores dentro, mas, ao invés de serem armazenados de 
+forma sequencial como em um array, os valores são armazenados com chaves (ou propriedades) que permitem identificar e 
+acessar cada valor.
 */
