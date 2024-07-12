@@ -745,4 +745,12 @@ de outra.
 A grosso modo, um objeto é basicamente uma variavel com muitos valores dentro, mas, ao invés de serem armazenados de 
 forma sequencial como em um array, os valores são armazenados com chaves (ou propriedades) que permitem identificar e 
 acessar cada valor. Em outras palavras, um objeto é uma coleção de pares chave-valor.
+###########################################################################################################################
 */ 
+
+let carro = {
+    marca: "ford",
+    modelo: "ka",
+    ano: "2015"
+    placa: "DFA1530"
+}
