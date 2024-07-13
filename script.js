@@ -751,6 +751,6 @@ acessar cada valor. Em outras palavras, um objeto é uma coleção de pares chav
 let carro = {
     marca: "ford",
     modelo: "ka",
-    ano: "2015"
+    ano: "2015",
     placa: "DFA1530"
 }
