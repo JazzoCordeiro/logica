@@ -745,12 +745,23 @@ de outra.
 A grosso modo, um objeto é basicamente uma variavel com muitos valores dentro, mas, ao invés de serem armazenados de 
 forma sequencial como em um array, os valores são armazenados com chaves (ou propriedades) que permitem identificar e 
 acessar cada valor. Em outras palavras, um objeto é uma coleção de pares chave-valor.
+Geralmente usamos CONST em objetos.
+Este é um objeto literal, com as propriedades já definidas, existem objetos cujos valores serão definidos de forma dinamica.
+Você pode adicionar novas propriedades a um objeto a qualquer momento, usando a notação de ponto ou a notação de colchetes.
 ###########################################################################################################################
 */ 
 
-let carro = {
+const carro = {
     marca: "ford",
     modelo: "ka",
     ano: "2015",
     placa: "DFA1530"
 }
+
+console.log(carro)
+
+carro.cor = "vermelho"  //notação de ponto
+
+carro["estado"] = "novo"     //notação de colchetes.
+
+console.log(carro)
