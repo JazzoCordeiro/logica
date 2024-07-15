@@ -748,14 +748,30 @@ acessar cada valor. Em outras palavras, um objeto é uma coleção de pares chav
 Geralmente usamos CONST em objetos.
 Este é um objeto literal, com as propriedades já definidas, existem objetos cujos valores serão definidos de forma dinamica.
 Você pode adicionar novas propriedades a um objeto a qualquer momento, usando a notação de ponto ou a notação de colchetes.
+Dentro de um objeto podemos ter o método. O método é quando criamos uma propriedade que tem uma função dentro dela, essa 
+função pode ser vazia ou não.
+Podemos também criar um método dinamico para o objeto, ou seja, do lado de fora chamamos como no exemplo:
+
+function nomeDaFunção(){
+console.log("mensagem")
+}
+
+nomeDoObjeto.NomeDoMetodo = nomeDaFunção 
+
+
 ###########################################################################################################################
 */ 
+
+function freiada(){
+    console.log("freiou!")
+}
 
 const carro = {
     marca: "ford",
     modelo: "ka",
     ano: "2015",
-    placa: "DFA1530"
+    placa: "DFA1530",
+    buzina: function() { console.log("bibi"); }, //método dentro do objeto
 }
 
 console.log(carro)
@@ -765,3 +781,9 @@ carro.cor = "vermelho"  //notação de ponto
 carro["estado"] = "novo"     //notação de colchetes.
 
 console.log(carro)
+
+carro.buzina()     //chamando o método
+
+carro.freio = freiada
+
+console.log(carro.freio)
