@@ -758,6 +758,12 @@ console.log("mensagem")
 
 nomeDoObjeto.NomeDoMetodo = nomeDaFunção 
 
+posso usar o THIS para pegar apenas uma propriedade do meu objeto.
+
+exemplo:
+
+propriedade: function() {
+return "retornar apenas uma infor" + this.propriedadeQueEuQuero}
 
 ###########################################################################################################################
 */ 
@@ -772,6 +778,7 @@ const carro = {
     ano: "2015",
     placa: "DFA1530",
     buzina: function() { console.log("bibi"); }, //método dentro do objeto
+    completo: function(){ return "a marca é " + this.marca + " e o modelo é " + this.modelo}
 }
 
 console.log(carro)
@@ -787,3 +794,5 @@ carro.buzina()     //chamando o método
 carro.freio = freiada
 
 console.log(carro.freio)
+
+console.log(carro.completo)
