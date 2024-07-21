@@ -793,6 +793,6 @@ carro.buzina()     //chamando o método
 
 carro.freio = freiada
 
-console.log(carro.freio)
+console.log(carro.freio())
 
-console.log(carro.completo)
+console.log(carro.completo())
