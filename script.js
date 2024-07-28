@@ -769,7 +769,9 @@ return "retornar apenas uma infor" + this.propriedadeQueEuQuero}
 */ 
 
 function freiada(){
-    console.log("freiou!")
+     console.log("freiou!")
+    return "O freio foi acionado";  
+
 }
 
 const carro = {
