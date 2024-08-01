@@ -857,3 +857,10 @@ function clicada(){
 function doubleClick(){
     alert("funcionou o evento de DBLlick")
 }
+
+/*
+function addTexto(){
+    let p = document.getElementById("texto")
+    p.append('o texto muda se você continuar mexendo o mouse.')
+}
+*/
