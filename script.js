@@ -834,7 +834,7 @@ onclick -> Dispara uma função quando um botão é clicado.
 ondblclick -> Dispara uma função quando há duplo clique.
 onmouseover -> Dispara quando o mouse passa por cima do elemento, geralmente usado no CSS.
 onmouseout -> Disparado quando o mouse é movido para FORA do elemento.
-onmousemove -> Disparado quando o mouse é movido dentro do elemento.
+onmousemove -> Disparado quando o mouse é movido dentro do elemento. Ele repete a função várias vezes por segundo enquanto o mouse se mexer.
 onmousedown -> Disparado quando o clique é pressionado e antes de soltar, por exemplo, pode ser usado para pulos em jogos.
 onmouseup -> Disparado apenas quando o clique é soltado, por exemplo em um jogo, se usar o mousedown para puxar um estilingue e o onmouseup para soltar a pedra e aplicar a força.
 onmouseenter -> Dispara quando o mouse entra no elemento.
