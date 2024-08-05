@@ -864,3 +864,10 @@ function addTexto(){
     p.append('o texto muda se você continuar mexendo o mouse.')
 }
 */
+
+/*###############################################################################################################################
+Um array ou matriz é uma variável com várias propriedades só que sem métodos.
+Um item dentro de uma matriz é encontrado pela sua posição dentro daquele array.
+
+#################################################################################################################################
+*/
