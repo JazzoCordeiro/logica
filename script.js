@@ -869,5 +869,17 @@ function addTexto(){
 Um array ou matriz é uma variável com várias propriedades só que sem métodos.
 Um item dentro de uma matriz é encontrado pela sua posição dentro daquele array.
 
+Ao invés de criar muitas váriaveis com diferentes valores, basta criar uma variável com diferentes valores que são agrupáveis, 
+ou seja, que se encaixem juntos, um bom exemplo pode ser as caracteristicas de um carro ou ainda uma lista de compras.
+
 #################################################################################################################################
 */
+
+//estrutura de uma matriz ou array
+
+const lista = [
+    "arroz",
+    "feijão",
+    "legumes",
+    "leite"
+]
