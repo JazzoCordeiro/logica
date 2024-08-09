@@ -872,10 +872,12 @@ Um item dentro de uma matriz é encontrado pela sua posição dentro daquele arr
 Ao invés de criar muitas váriaveis com diferentes valores, basta criar uma variável com diferentes valores que são agrupáveis, 
 ou seja, que se encaixem juntos, um bom exemplo pode ser as caracteristicas de um carro ou ainda uma lista de compras.
 
+É sempre mais indicado usar um array literal do que um array com construtor, porém, podem existir momentos em que ele é exigido.
+
 #################################################################################################################################
 */
 
-//estrutura de uma matriz ou array
+//estrutura de uma matriz ou array LITERAL - MELHOR FORMA DE FAZER UM ARRAY
 
 const lista = [
     "arroz",
@@ -883,3 +885,18 @@ const lista = [
     "legumes",
     "leite"
 ]
+
+
+//estrutura de matriz ou array unidimensional ou de VETOR
+const carro = []
+
+carro[0] = "fusca"
+carro[1] = "volto"
+carro[2] = "chevetão"
+carro[3] = "fiat 147"
+carro[4] = "brasilia"
+
+
+//estrutura de uma matriz ou array com CONSTRUTOR Pode ser útil em situações em que você precisa criar um array 
+// de tamanho específico ou trabalhar com parâmetros variáveis.
+const frutas = new Array("uva", "maçã", "melão")
