@@ -900,3 +900,24 @@ carro[4] = "brasilia"
 //estrutura de uma matriz ou array com CONSTRUTOR Pode ser útil em situações em que você precisa criar um array 
 // de tamanho específico ou trabalhar com parâmetros variáveis.
 const frutas = new Array("uva", "maçã", "melão")
+
+/*
+Diferença de matriz e de objeto.
+
+                matriz/array
+
+const pessoa = [
+Dimitri", 
+"Teixeira", 
+30
+]  
+
+                Objeto
+
+const pessoa = {
+nome: "Dimitri",
+sobrenome: "Teixeira",
+idade: 30
+}
+
+*/
