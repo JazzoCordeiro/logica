@@ -903,6 +903,8 @@ const frutas = new Array("uva", "maçã", "melão")
 
 /*
 Diferença de matriz e de objeto.
+
+
 Em JavaScript, tanto arrays quanto objetos são estruturas de dados que ajudam a armazenar e organizar informações.
 
 Um array em JavaScript é uma estrutura de dados ordenada, usada para armazenar múltiplos valores em uma única variável. 
@@ -951,7 +953,7 @@ console.log(pessoa.interesses[0]); // "música"
 
 
 
-
+EXEMPLOS
 
                 matriz/array
 
