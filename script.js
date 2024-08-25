@@ -888,13 +888,13 @@ const lista = [
 
 
 //estrutura de matriz ou array unidimensional ou de VETOR
-const carro = []
+const carror = []
 
-carro[0] = "fusca"
-carro[1] = "volto"
-carro[2] = "chevetão"
-carro[3] = "fiat 147"
-carro[4] = "brasilia"
+carror[0] = "fusca"
+carror[1] = "volto"
+carror[2] = "chevetão"
+carror[3] = "fiat 147"
+carror[4] = "brasilia"
 
 
 //estrutura de uma matriz ou array com CONSTRUTOR Pode ser útil em situações em que você precisa criar um array 
@@ -971,3 +971,62 @@ sobrenome: "Teixeira",
 idade: 30
 }
 */
+
+/*##############################################################################################################################
+                        MÉTODOS PARA ARRAYS
+Os métodos de array em JavaScript são funções predefinidas que permitem manipular, modificar e interagir com os elementos de um 
+array de forma eficiente. 
+
+métodos:
+join: substitui as virgulas pelo que eu quiser.
+ex.
+nomeDoArray.join("adiciono o que eu quiser aqui")
+
+pop: Remove o ultimo item da matriz.
+ex.
+nomeDoArray.pop();
+
+push: Adiciona um novo valor na matriz no ultimo lugar.
+ex.
+nomeDoArray.push(insiraONovoValorAqui)
+
+shift: Remove o primeiro item da Matriz, o item que antes ocupava o espaço 1 passa a ocupar o espaço 0.
+ex.
+nomeDoArray.shift();
+
+unshift: adiciona um novo PRIMEIRO ITEM na matriz SEM APAGAR o que antes ocupava este lugar.
+ex.
+nomeDoArray.unshift(novoValorAOcuparAPosiçãoZero);
+
+delete: remove o valor na posição indicada, mas não altera o comprimento do array nem renumera os índices. Isso significa 
+que, após o uso de delete, a posição do array será deixada com o valor undefined, mas o comprimento do array não é alterado.
+ex.
+delete nomeDoArray[númeroDaPosiçãoASerEliminada]
+
+splice: pode ser usado para remover ou adicionar elementos de um array, e ele ajusta o comprimento do array corretamente, 
+além de mover os elementos subsequentes para preencher o espaço.
+ex.
+
+nomeDoArray.splice(numeroQueIndicaAPosiçãoNoArray, 0 para adicionar e 1 ou mais números para deletar a partir da posição previamente escolhi, valores/itens adicionados)
+
+const abecedario ["a", "b", "c", "d", "i"]
+
+abecedario.splice(4, 0, "e", "f", "g", "h")  ---> estou ADICIONANDO LETRAS AO ARRAY, pois usei o ZERO que indica que vou adicionar.
+
+abecedario.splice(3, 1, "L") ----> eliminei aqui a letra D e adicionei o L na posição em que ela estava.
+
+abecedario.splice(3, 1) ----> eliminei aqui a letra D e a letra E passou a ocupar o espaço 3.
+
+abecedario.splice(1, 3) eliminei as casas 1, 2 e 3 (letras b, c, d) e letra i passou a ocupar o 1 espaço.
+
+abecedario.splice(1, 3, "k", "m", "n") eliminei as casas 1, 2 e 3 (letras b, c, d) e as letras K, M e N entraram 
+em seus respectivos lugares.
+
+
+
+
+################################################################################################################################
+*/
+
+document.getElementById("teste").innerHTML = lista.join(" - ");
+
