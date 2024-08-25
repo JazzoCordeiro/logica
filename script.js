@@ -1047,9 +1047,6 @@ Se quiser ordenar números de forma decrescente, é só invernet a subtração n
 ex.
 numeros.sort((a, b) => b - a);
 
-
-
-
 reverse: Serve para inverter a ordem dentro da matriz.
 ex.
 matriz.reverse()
@@ -1071,4 +1068,14 @@ const lista3 = ["laranja", "limão"]
 const doubleLista = lista1.concat(lista2, lista3)
 document.getElementById("teste1").innerHTML = doubleLista.join(", ")
 
-const frutas = doubleLista.slice(5)
+const fruta = doubleLista.slice(5)
+
+//função para pegar o maior número de um array
+
+const numerado = [1, 14, 2, 7, 10, 30, 54, 19]
+
+function maiorNumero(array) {
+    return Math.max.apply(null, array)
+}
+
+document.getElementById("teste2").innerHTML = maiorNumero(numerado)
