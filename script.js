@@ -1023,10 +1023,18 @@ abecedario.splice(1, 3, "k", "m", "n") eliminei as casas 1, 2 e 3 (letras b, c, 
 em seus respectivos lugares.
 
 
-
+concat: Serve para concatenar duas matrizes.
 
 ################################################################################################################################
 */
 
 document.getElementById("teste").innerHTML = lista.join(" - ");
 
+//concatenando Matrizes
+
+const lista1 = ["alface", "couve", "rúcula"]
+const lista2 = ["brócolis", "repolho", "milho"]
+const lista3 = ["laranja", "limão"]
+
+const doubleLista = lista1.concat(lista2, lista3)
+document.getElementById("teste1").innerHTML = doubleLista.join(", ")
