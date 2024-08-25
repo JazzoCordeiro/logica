@@ -1025,6 +1025,38 @@ em seus respectivos lugares.
 
 concat: Serve para concatenar duas matrizes.
 
+slice: serve para cortar uma matriz e criar outra a partir de uma posição especifica numerada e pode ir até um limite ou
+até o fim do array.
+ex. indo até o fim do array.
+const novaMatriz = matrizAntiga.slice(3)
+
+ex. sendo limitada até a posição 7
+const novaMatriz = matrizAntiga.slice(3,7)
+
+
+sort: serve para ordenar por ordem alfabética os valores dentro da matriz.
+ex.
+matriz.sort()
+
+Quando usado com número ele vai agrupar da seguinte forma 1, 10, 11, 12, 13...2, 20, 21, 22. Para organizar corretamente
+os números de forma crescente, precisamos colocar uma função dentro de sort.
+ex.
+numeros.sort((a, b) => a - b);
+
+Se quiser ordenar números de forma decrescente, é só invernet a subtração na função
+ex.
+numeros.sort((a, b) => b - a);
+
+
+
+
+reverse: Serve para inverter a ordem dentro da matriz.
+ex.
+matriz.reverse()
+
+
+
+
 ################################################################################################################################
 */
 
@@ -1038,3 +1070,5 @@ const lista3 = ["laranja", "limão"]
 
 const doubleLista = lista1.concat(lista2, lista3)
 document.getElementById("teste1").innerHTML = doubleLista.join(", ")
+
+const frutas = doubleLista.slice(5)
