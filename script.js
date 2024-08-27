@@ -1051,7 +1051,22 @@ reverse: Serve para inverter a ordem dentro da matriz.
 ex.
 matriz.reverse()
 
+forEach(): Executa uma função em cada item do array.
+ex.
+const conta = [1, 2, 3];
+conta.forEach(item => console.log(item)); 
 
+map(): Cria um novo array com os resultados da execução de uma função em cada item do array.
+
+some(): Verifica se pelo menos um elemento no array satisfaz a condição fornecida.
+
+every(): Verifica se todos os elementos no array satisfazem a condição fornecida.
+
+find(): Retorna o primeiro elemento que satisfaz a condição fornecida.
+
+includes(): Verifica se um determinado elemento existe no array.
+
+const arr = [1, 2, 3, 4];
 
 
 ################################################################################################################################
@@ -1070,12 +1085,36 @@ document.getElementById("teste1").innerHTML = doubleLista.join(", ")
 
 const fruta = doubleLista.slice(5)
 
-//função para pegar o maior número de um array
+//funções para numerais.
 
 const numerado = [1, 14, 2, 7, 10, 30, 54, 19]
 
+
+//função para pegar o maior número de um array
 function maiorNumero(array) {
     return Math.max.apply(null, array)
 }
 
+
+//função para pegar o menor número de um array
+function menorNumero(array) {
+    return Math.min.apply(null, array)
+}
+
+//função para pegar números especificos, é preciso declarar uma variavel antes e filtrar usando a função criada.
+const contagem20 = numerado.filter(filtragem) 
+
+function filtragem(value, index, array){
+    return value > 20
+}
+
 document.getElementById("teste2").innerHTML = maiorNumero(numerado)
+
+document.getElementById("teste3").innerHTML = menorNumero(numerado)
+
+document.getElementById("teste4").innerHTML = contagem20.join(", ")
+
+
+/*#####################################################################################################################
+
+*/
