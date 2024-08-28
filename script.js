@@ -1116,7 +1116,12 @@ document.getElementById("teste4").innerHTML = contagem20.join(", ")
 
 
 /*#####################################################################################################################
-
+revisão de laços de repetição.
 
 #######################################################################################################################
 */
+
+var ano = new Date().getFullYear();
+
+for(let nascimento = ano; nascimento >= 1900; nascimento--)
+    document.getElementById("ano").innerHTML += "<option value = '" + nascimento +"'>" + nascimento + "</option>"
