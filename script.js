@@ -859,7 +859,7 @@ function doubleClick(){
 }
 
 /*
-function addTexto(){
+//function addTexto(){
     let p = document.getElementById("texto")
     p.append('o texto muda se você continuar mexendo o mouse.')
 }
@@ -1125,3 +1125,28 @@ var ano = new Date().getFullYear();
 
 for(let nascimento = ano; nascimento >= 1900; nascimento--)
     document.getElementById("ano").innerHTML += "<option value = '" + nascimento +"'>" + nascimento + "</option>"
+
+/*######################################################################################################################
+                                Eventos de tempo
+setTimeout: Executa uma função depois de um tempo pré-determinado em milissegundos.
+
+setInterval: Executa uma função conntinuamente em intervalo de tempo pré-determinado.
+
+Ambos podem ser usados para jogos e também para atualizar as informações extraidas de uma API ou ainda para manter um 
+token de login.
+
+########################################################################################################################
+*/
+/*
+function ativar() {
+    setInterval(function(){
+        document.body.style.backgroundColor = "blue"
+    }, 5000);
+    setInterval(function(){
+        document.body.style.backgroundColor = "white"
+    }, 6000)
+}
+
+ativar()
+
+*/
