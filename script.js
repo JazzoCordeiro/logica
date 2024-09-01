@@ -1128,25 +1128,34 @@ for(let nascimento = ano; nascimento >= 1900; nascimento--)
 
 /*######################################################################################################################
                                 Eventos de tempo
-setTimeout: Executa uma função depois de um tempo pré-determinado em milissegundos.
+setTimeout: Executa uma função APENAS UMA VEZ depois de um tempo pré-determinado em milissegundos.
 
-setInterval: Executa uma função conntinuamente em intervalo de tempo pré-determinado.
+setInterval: Executa uma função CONTINUAMENTE em intervalo de tempo pré-determinado.
 
 Ambos podem ser usados para jogos e também para atualizar as informações extraidas de uma API ou ainda para manter um 
 token de login.
 
-########################################################################################################################
-*/
-/*
+
+
+
+let temporal, temporal2
+
 function ativar() {
-    setInterval(function(){
+    temporal = setInterval(function(){
         document.body.style.backgroundColor = "blue"
-    }, 5000);
-    setInterval(function(){
+    }, 2000);
+    temporal2 = setInterval(function(){
         document.body.style.backgroundColor = "white"
-    }, 6000)
+    }, 3000)
 }
 
 ativar()
 
+function parar() {
+    clearInterval(temporal, temporal2)
+}
+
+
+########################################################################################################################
 */
+
