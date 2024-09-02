@@ -1154,8 +1154,19 @@ ativar()
 function parar() {
     clearInterval(temporal, temporal2)
 }
-
-
 ########################################################################################################################
 */
 
+let cronometro
+
+function cronometrar(){
+    cronometro = setInterval(function(){
+    cronada = document.getElementById("cronando").innerHTML
+    tempando = parseInt(cronada) +1
+    document.getElementById("cronando").innerHTML = tempando
+}, 1000)
+}
+
+function para(){
+    clearInterval(cronada)
+}
