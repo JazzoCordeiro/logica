@@ -1206,7 +1206,23 @@ function para(){
 
 /*############################################################################################################################
                         CLASSES
-    No javascript as CLASSES usam um método chamado construtor() para criar objetos.
+    No javascript as CLASSES usam um método chamado construtor() para criar objetos de forma mais estruturada e com sintaxe de 
+orientação a objetos. A classe serve como um molde para criar objetos com atributos e comportamentos/métodos.
+    O constructor() é um método especial dentro de uma classe, utilizado para inicializar os valores de uma nova instância dessa 
+classe. Esse método é chamado automaticamente quando você cria um novo objeto com a palavra-chave new. Dentro do constructor(), 
+você pode definir valores iniciais para as propriedades do objeto ou executar qualquer outro código necessário para a criação do 
+objeto.
 
 ##############################################################################################################################
 */
+
+class carroca{
+    constructor(valor1, valor2, valor3, valor4){
+        this.marca = valor1;
+        this.modelo = valor2;
+        this.cor = valor3;
+        this.ano = valor4;
+    }
+}
+
+const uno = new carroca("Fiat", "Uno", "Vermelho", 2001)
