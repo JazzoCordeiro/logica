@@ -1170,3 +1170,43 @@ function cronometrar(){
 function para(){
     clearInterval(cronada)
 }
+
+
+   let cronometro;
+        let tempoRestante = 10; // Tempo inicial em segundos (você pode alterar)
+
+        function cronometrar() {
+            cronometro = setInterval(function() {
+                // Verifica se o tempo chegou a 0 ou menos
+                if (tempoRestante <= 0) {
+                    document.getElementById("cronando").innerHTML = "Tempo acabou!";
+                    clearInterval(cronometro); // Para o cronômetro
+                } else {
+                    // Atualiza o tempo restante
+                    document.getElementById("cronando").innerHTML = tempoRestante + " segundos restantes";
+
+                    // Exibe uma mensagem especial quando faltar 10 segundos
+                    if (tempoRestante === 10) {
+                        document.getElementById("mensagem").innerHTML = "Faltam apenas 10 segundos!";
+                    } else {
+                        document.getElementById("mensagem").innerHTML = ""; // Limpa a mensagem quando não faltar 10 segundos
+                    }
+
+                    // Decrementa o tempo
+                    tempoRestante--;
+                }
+            }, 1000); // Decrementa a cada 1 segundo
+        }
+
+        function parar() {
+            clearInterval(cronometro); // Para o cronômetro
+        }
+    </script>
+
+
+/*############################################################################################################################
+                        CLASSES
+    No javascript as CLASSES usam um método chamado construtor() para criar objetos.
+
+##############################################################################################################################
+*/
