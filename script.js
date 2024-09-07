@@ -1171,7 +1171,7 @@ function para(){
     clearInterval(cronada)
 }
 
-
+/*
    let cronometro;
         let tempoRestante = 10; // Tempo inicial em segundos (você pode alterar)
 
@@ -1201,8 +1201,8 @@ function para(){
         function parar() {
             clearInterval(cronometro); // Para o cronômetro
         }
-    </script>
 
+*/
 
 /*############################################################################################################################
                         CLASSES
