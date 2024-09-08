@@ -1212,6 +1212,19 @@ orientação a objetos. A classe serve como um molde para criar objetos com atri
 classe. Esse método é chamado automaticamente quando você cria um novo objeto com a palavra-chave new. Dentro do constructor(), 
 você pode definir valores iniciais para as propriedades do objeto ou executar qualquer outro código necessário para a criação do 
 objeto.
+    Quando o constructor() deve ser usado?
+
+    O constructor() deve ser utilizado quando você precisa inicializar as propriedades de um objeto ao criar uma instância da 
+classe. Ele é chamado automaticamente quando você cria um novo objeto com a palavra-chave new.
+
+    Use o constructor() quando precisar:
+
+    Inicializar propriedades: Definir valores iniciais para as variáveis que fazem parte do objeto.
+
+    Executar código de configuração: Por exemplo, quando é necessário configurar algo no momento da criação do objeto, como abrir 
+    uma conexão com banco de dados, carregar dados, etc.
+
+    Esse mecanismo torna o código mais legível e reutilizável, ajudando na organização e manutenção do código.
 
 ##############################################################################################################################
 */
