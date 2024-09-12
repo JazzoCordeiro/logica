@@ -1269,4 +1269,29 @@ let hora = data.getHours() //de 0 até 23
 let min = data.getMinutes() // de 0 até 59
 let sec = data.getSeconds() // de 0 até 59
 let miliSec = data.getMilliSeconds()// de 0 até 999
-let dataBR = data.toLocaleString('pt-BR') // mostra data e hora de acordo com o que é usado em determinado país.
+let dataBR = data.toLocaleString('pt-BR', {timestyle:'short'}) /* {datastyle:'short'} vai mostrar só a data || 
+{timestyle} vai mostrar só a hora br. mostra data e hora de acordo com o que é usado em determinado país.*/
+
+// comparar datas
+
+var hoje = new Date();
+var vencimento = new Date(2022, 0, 15)
+
+if (hoje > vencimento) {
+    console.log("sua conta tá vencida")
+}else{
+    console.log("ainda não venceu, vá pagar")
+}
+
+// diferença entre duas datas.
+
+var dataInicial = new Date()
+var dataFinal = new Date(2026, 0, 1)
+
+var difTemp = dataFinal.getTime() - dataInicial.getTime()
+
+var tempTotal = Math.ceil(difTemp / (24 * 60 * 60 * 1000)) //nesta variavel tem a conta para transformar milisegundos em dias
+
+
+
+
