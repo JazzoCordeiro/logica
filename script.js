@@ -1211,6 +1211,8 @@ orientação a objetos. A classe serve como um molde para criar objetos com atri
 
             AO DECLARAR UMA CLASSE, A PRIMEIRA LETRA SEMPRE SERÁ MAIUSCULA, DIFERENTE DE ARRAYS E OBJETOS.
 
+            UMA CLASSE DEVE SEMPRE SER CHAMADA ABAIXO DE ONDE ELA FOI DECLARADA.
+
     O constructor() é um método especial dentro de uma classe, utilizado para inicializar os valores de uma nova instância dessa 
 classe. Esse método é chamado automaticamente quando você cria um novo objeto com a palavra-chave new. Dentro do constructor(), 
 você pode definir valores iniciais para as propriedades do objeto ou executar qualquer outro código necessário para a criação do 
@@ -1250,3 +1252,21 @@ const gol = new Carroca("volkswagen", "Gol", "branco", 1996 )
 
 console.log(uno)
 console.log(gol.freada())
+
+/*###############################################################################################################################
+                    MANIPULAÇÃO DE DATAS.
+    DATE é um objeto especifico para trabalhar com datas em javascript, servindo para segundos, horas, dias, meses e anos.
+
+#################################################################################################################################
+*/
+
+// let data = new Date    COMENTEI ESSA PARTE DO CÓDIGO POIS JÁ O UTILIZEI ANTES NESTE DOCUMENTO.
+
+let ano = data.getFullYear()   //mostra ao ano
+let mes = data.getMonth()   //mostra de 0 a 11
+let dia = data.getDay()   //mostra o dia da semana de 0 a 6
+let hora = data.getHours() //de 0 até 23
+let min = data.getMinutes() // de 0 até 59
+let sec = data.getSeconds() // de 0 até 59
+let miliSec = data.getMilliSeconds()// de 0 até 999
+let dataBR = data.toLocaleString('pt-BR') // mostra data e hora de acordo com o que é usado em determinado país.
