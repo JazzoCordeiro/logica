@@ -1239,7 +1239,7 @@ class Carroca{
         this.marca = valor1;
         this.modelo = valor2;
         this.cor = valor3;
-        this.ano = valor4;
+        this.anos = valor4;
     }
     //O método vai fora do constructor
     freada() {
@@ -1262,15 +1262,15 @@ console.log(gol.freada())
 
 // let data = new Date    COMENTEI ESSA PARTE DO CÓDIGO POIS JÁ O UTILIZEI ANTES NESTE DOCUMENTO.
 
-let ano = data.getFullYear()   //mostra ao ano
-let mes = data.getMonth()   //mostra de 0 a 11
-let dia = data.getDay()   //mostra o dia da semana de 0 a 6
-let hora = data.getHours() //de 0 até 23
-let min = data.getMinutes() // de 0 até 59
-let sec = data.getSeconds() // de 0 até 59
-let miliSec = data.getMilliSeconds()// de 0 até 999
-let dataBR = data.toLocaleString('pt-BR', {timestyle:'short'}) /* {datastyle:'short'} vai mostrar só a data || 
-{timestyle} vai mostrar só a hora br. mostra data e hora de acordo com o que é usado em determinado país.*/
+//let anual = data.getFullYear();                //mostra ao ano
+//let mes = data.getMonth()   //mostra de 0 a 11
+//let dia = data.getDay()   //mostra o dia da semana de 0 a 6
+//let hora = data.getHours() //de 0 até 23
+//let min = data.getMinutes() // de 0 até 59
+//let sec = data.getSeconds() // de 0 até 59
+//let miliSec = data.getMilliseconds()// de 0 até 999
+//let dataBR = data.toLocaleString('pt-BR', {timeS tyle:'short'}) /* {datastyle:'short'} vai mostrar só a data || 
+//{timestyle} vai mostrar só a hora br. mostra data e hora de acordo com o que é usado em determinado país.*/
 
 // comparar datas
 
@@ -1293,9 +1293,28 @@ var difTemp = dataFinal.getTime() - dataInicial.getTime()
 var tempTotal = Math.ceil(difTemp / (24 * 60 * 60 * 1000)) //nesta variavel tem a conta para transformar milisegundos em dias
 
 /*###############################################################################################################################
+                                JSON
+    JSON é um modo simples de converter um objeto em texto ou vice versa.
 
-
-
+    JSON.paser()          -> converte texto no padrão JSON em objetos
+    JSON.stringify()      -> converte objetos em texto padrão JSON
 #################################################################################################################################*/
 
+
+
+const peixe = {
+    especie: "tilapia",
+    tamanho: 15,
+    tipo: "de rio"
+    
+
+}
+
+let texto = JSON.stringify(peixe)
+
+document.getElementById('area').innerHTML = texto
+
+let obj = JSON.parse(texto);
+
+console.log(obj.tamanho)
 
