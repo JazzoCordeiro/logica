@@ -1306,9 +1306,7 @@ const peixe = {
     especie: "tilapia",
     tamanho: 15,
     tipo: "de rio"
-    
-
-}
+   }
 
 let texto = JSON.stringify(peixe)
 
@@ -1317,4 +1315,23 @@ document.getElementById('area').innerHTML = texto
 let obj = JSON.parse(texto);
 
 console.log(obj.tamanho)
+
+
+function cep(){
+    let textoCep = document.getElementById('cepado').value
+    const ajax = new XMLHttpRequest()     //faz uma requisição ao site, sem precisar acessar pelo navegador
+ajax.open('GET', 'https://viacep.com.br/ws/' + textoCep + '/json')
+ajax.send()
+ajax.onload = function(){
+    document.getElementById('aria').innerHTML = this.responseText
+
+//texto foi transformado em objeto
+    let objec = JSON.parse(this.responseText)
+
+//os valores especificos foram escolhidos.
+    let logradouro = objec.logradouro
+    console.log("logradouro" + logradouro)
+}
+}
+
 
