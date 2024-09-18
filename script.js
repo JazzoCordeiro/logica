@@ -1335,3 +1335,69 @@ ajax.onload = function(){
 }
 
 
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                    CONTINUAÇÃO JSON
+
+   JSON (JavaScript Object Notation) é uma forma simples e leve de representar dados como objetos, utilizando o formato 
+chave: valor. Ele é amplamente usado para transferência de dados entre sistemas, como entre o front-end e o back-end de 
+uma aplicação.
+A estrutura for...in é muito útil para percorrer propriedades de um objeto em JavaScript. Com ela, é possível acessar 
+dinamicamente todas as chaves e valores de um objeto JSON.
+O JSON é um formato universal, amplamente aceito por diferentes linguagens de programação. Ele facilita a integração de 
+sistemas através de APIs REST (Representational State Transfer), que são padrões modernos de comunicação entre aplicações 
+na web.
+Antes do JSON, o XML era muito utilizado, mas por ser mais verboso e complexo, caiu em desuso em muitos cenários.
+
+Outra alternativa moderna ao JSON é o GraphQL, que oferece uma abordagem mais flexível e eficiente, permitindo que o 
+cliente escolha exatamente quais dados deseja receber da API.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+let invoice = {
+    name: "Felipe",
+    age: 28,
+    products: {
+        0: ["mouse ", "29.90"],
+        1: ["teclado ", "129.99"],
+        2: ["monitor ", "899.99"]
+    }, taxes: "98.90"
+}
+function generateInvoice(invoice){
+console.log(`O comprador é ${invoice.name}`)
+console.log(`A idade do comprador é ${invoice.age}`)
+console.log("----------------------------------------------------------------------------");
+console.log("Produtos:");
+
+
+for(let index in invoice.products){
+    let [productName, productPrice] = invoice.products[index]
+    console.log(`- ${productName}: R$ ${productPrice}`)
+}
+}
+
+generateInvoice(invoice)
+
+
+/*################################################################################################################################## 
+                        CLASSES E OBJETOS
+        Classe é a padronização de uma estrutura de dados.
+        Objeto mantém a padronização da forma (classe) e emplementa seus valores das propriedades.
+
+
+##################################################################################################################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
