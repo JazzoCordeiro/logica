@@ -1379,9 +1379,12 @@ generateInvoice(invoice)
 
 /*################################################################################################################################## 
                         CLASSES E OBJETOS
-        Classe é a padronização de uma estrutura de dados.
-        Objeto mantém a padronização da forma (classe) e emplementa seus valores das propriedades.
-
+        Classe é a padronização de uma estrutura de dados, ou seja, um molde que define como os objetos daquele tipo devem 
+ser — com quais propriedades (dados) e métodos (ações).
+        Objeto é a implementação concreta desse molde. Ele mantém a estrutura definida pela classe e atribui valores reais 
+às propriedades.
+        Quando eu crio uma classe e faço um objeto a partir dela, eu estou INSTANCIANDO o objeto. Ou seja, criamos uma instância 
+da classe.
 
 ##################################################################################################################################*/
 
