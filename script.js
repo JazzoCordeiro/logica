@@ -1385,12 +1385,29 @@ ser — com quais propriedades (dados) e métodos (ações).
 às propriedades.
         Quando eu crio uma classe e faço um objeto a partir dela, eu estou INSTANCIANDO o objeto. Ou seja, criamos uma instância 
 da classe.
-
 ##################################################################################################################################*/
 
 
+class formaBolo{
+    constructor(saborMassa, saborRecheio, saborCobertura){
+        this.saborMassa = saborMassa
+        this.saborRecheio = saborRecheio
+        this.saborCobertura = saborCobertura
+    }
+    escrever(){
+        console.log(`Um delicioso bolo de ${this.saborMassa} com ${this.saborRecheio} e ${this.saborCobertura}`)
+    }
+}
+
+let boloFesta = new formaBolo("massa de chocolate", "recheio de nozes", "cobertura de ganache")
+let boloNiver = new formaBolo("massa de baunilha", "recheio de abacaxi", "cobertura de chantili")
+
+console.log(boloFesta)
+console.log(boloFesta.saborRecheio)
 
 
+boloFesta.escrever()
+boloNiver.escrever()
 
 
 
