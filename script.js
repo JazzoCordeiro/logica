@@ -1498,10 +1498,24 @@ class Heroi {
 /*################################################################################################################################
                                 Resumindo javascript da DIO.ME
 
+                                            HOISTING
+        No javascript a ordem de declaração são influenciadas pelo HOISTING, ou seja, içamento das declarações.
 
+Caso eu chame uma variável VAR antes de declara-la, ela será undefined. Se eu usar LET ou CONST elas ficarão na zona morta temporal.
+caso eu chame uma variável usando CONST ou LET que tem uma função dentro antes de declara-la, ela apresentará erro.
+caso eu chame uma função antes de declara-la, ela funcionará normal, ela será içada.
 #################################################################################################################################*/
+/*################################################################################################################################
+                                            Conversões dinamicas em JS
 
+        console.log(10 + "10")    -> ele vai converter o número em string e concatenar, resultando em 1010
+        console.log(10 - "2")     -> converte para número e resolve a equação, resultado = 8
+        console.log(10 - "texto") -> tenta converter para número, porém o texto não vira número e ele retorna NAN
+        console.log(10 == "10")   -> Compara apenas o conteúdo e não o tipo da informação, então o resultado é TRUE
+        console.log(10 === "10")  -> Compara o conteúdo e o tipo da informação, então o resultado é FALSO
 
+ 
+##################################################################################################################################*/
 
 
 
