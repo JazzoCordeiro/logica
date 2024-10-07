@@ -1519,8 +1519,28 @@ caso eu chame uma função antes de declara-la, ela funcionará normal, ela ser�
 
 /*################################################################################################################################
                                             Orientação a protótipo
+        HERANÇA - a herança funciona por meio de protótipos — ou seja, objetos herdam de outros objetos, sem a necessidade de classes
+Cada objeto em JavaScript tem uma propriedade interna oculta chamada [[Prototype]], que normalmente é acessada por meio de
+ __proto__ ou com métodos como Object.getPrototypeOf().
 
+Quando você tenta acessar uma propriedade ou método que não existe diretamente no objeto, o JavaScript procura essa propriedade no 
+protótipo do objeto. Se não encontrar lá, ele continua subindo na cadeia de protótipos até encontrar ou chegar no final (null).
  
 ##################################################################################################################################*/
 
 
+const pessoal = {
+    raca: "humano",
+    origem: "Terra",
+    superPorder: "nenhum"
+}
+
+const rebeca = {
+    nome: "Rebeca",
+    idade: 35,
+    profissao: "Professora",
+    __proto__: pessoal
+}
+
+
+console.log(rebeca.raca)
