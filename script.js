@@ -1542,5 +1542,17 @@ const rebeca = {
     __proto__: pessoal
 }
 
-
 console.log(rebeca.raca)
+
+
+//também é possível criar um objeto da seguinte forma
+
+function Pessoale(nome, idade, profissao) {
+    this.nome = nome,
+    this.idade = idade,
+    this.profissao = profissao
+}
+
+const leticia = new Pessoale("Leticia", 60, "jogadora de futebol")
+
+console.log(leticia)
