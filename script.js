@@ -1556,3 +1556,4 @@ function Pessoale(nome, idade, profissao) {
 const leticia = new Pessoale("Leticia", 60, "jogadora de futebol")
 
 console.log(leticia)
+
