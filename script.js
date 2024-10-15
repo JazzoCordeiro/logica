@@ -1557,3 +1557,14 @@ const leticia = new Pessoale("Leticia", 60, "jogadora de futebol")
 
 console.log(leticia)
 
+/*#############################################################################################################################
+                                ARROW FUNCTION
+        Arrow functions não são nomeadas, elas herdam o nome da variável em que estão, elas não são içadas e só podem ser usadas
+depois de declaradas.
+        São ideais para funções curtas e de uso pontual.
+        Elas HERDAM O THIS e não tem acesso ao objeto arguments, além de não poderem ser usadas como funções construtoras como NEW.
+
+        USAR ARROW FUNCTION em funções curtas, geralmente como argumentos em MAP, FILTER, FOREACH
+        NUNCA USAR quando a função precisa de seu próprio THIS, se a função será usada como CONSTRUTORA de um objeto, quando precisar
+de ARGUMENTS, quando precisar de uma função nomeada para facilitar a recursão ou depuração.                                
+#############################################################################################################################*/
