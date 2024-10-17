@@ -1568,3 +1568,10 @@ depois de declaradas.
         NUNCA USAR quando a função precisa de seu próprio THIS, se a função será usada como CONSTRUTORA de um objeto, quando precisar
 de ARGUMENTS, quando precisar de uma função nomeada para facilitar a recursão ou depuração.                                
 #############################################################################################################################*/
+
+
+const nam1 = Number(prompt("Digite o primeiro número:"));
+const nam2 = Number(prompt("Digite o segundo número:"));
+const continha = (a, b) => console.log(a + b)
+
+continha(nam1, nam2);
