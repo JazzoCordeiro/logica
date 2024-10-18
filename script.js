@@ -1575,3 +1575,9 @@ const nam2 = Number(prompt("Digite o segundo número:"));
 const continha = (a, b) => console.log(a + b)
 
 continha(nam1, nam2);
+
+/*############################################################################################################################
+
+
+
+*/
