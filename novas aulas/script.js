@@ -45,8 +45,25 @@ fica sendo 101 que ao ser transformado em número decimal é o equivalente a 5. 
 a direita, eu diminuo o valor do número decimal em metade.
 
 
+As operações de deslocamento para a esquerda funcionam como se eu multiplicasse aquele número por 2 pelo número de vezes indicadas 
+pelo número que vem após o operador BITWISE. 
 
+ex: n1 = 20
 
+n1 << 3
+
+20x2 = 40     (1ª vez)
+40x2 = 80     (2ª vez)
+80x2 = 160    (3ª vez)
+
+Deslocamento para a direita é como se eu dividisse por 2 pelo número de vezes indicada pelo número que vem após o operador BITWISE.
+ex: n1 = 20
+
+n1 >> 3
+
+20/2 = 10     (1ª vez)
+10x2 = 5      (2ª vez)
+5x2 = 2       (3ª vez, RESULTADO ARREDONDADO)
 
 
 */
