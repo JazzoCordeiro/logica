@@ -3,11 +3,17 @@ foi introduzido no ECMAScript 5 (ES5) com o objetivo de tornar o JavaScript mais
 propenso a erros.  */
 
 
+//#######################################################################################################################
+
+
 /* && -> E
    || -> OU
    ! -> Negação
    !! -> negação da negação
    */
+
+
+//#######################################################################################################################
 
 
 /* OPERADORES BINÁRIOS BITWISE
@@ -64,6 +70,56 @@ n1 >> 3
 20/2 = 10     (1ª vez)
 10x2 = 5      (2ª vez)
 5x2 = 2       (3ª vez, RESULTADO ARREDONDADO)
+
+
+*/
+
+
+//##############################################################################################################################
+
+
+/* CONDICIONAL TERNÁRIO é um if else e funciona dando respostas baseado em verdadeiro ou falso.
+
+ONDE:
+? = Pergunta se a condição é verdadeira e apresenta imediatamente a resposta para o caso de ser
+
+: Indica que a resposta a partir dali será usada caso a condição seja falsa.
+
+CONDIÇÃO ? "CONDIÇÃO ATENDIDA"  :  "CONDIÇÃO NÃO ATENDIDA"
+
+CONDIÇÃO  ?  "RESPOSTA DA CONDIÇÃO SENDO VERDADEIRA"   :   "RESPOSTA DA CONDIÇÃO SENDO FALSA"
+
+
+##################################################################################################################
+*/
+
+
+/* O operador SPREAD serve para concatenar objetos ou arrays, quando houve campos iguais com informações diferentes,
+ele sempre dará preferencia à informação do último.
+
+let jogador1 = {nome: "Bruno", energia: 100, vidas: 3, magia: 150}
+let jogador2 = {nome: "Carlos", energia: 100, vidas: 5, velocidade: 80}
+let n3 = {...jogador1, ...jogador2}
+
+resultado disso é = {nome: "Carlos", energia: 100, vidas: 5, magia: 150, velocidade: 80}
+
+-------------------------
+
+USO EM FUNÇÕES:
+
+const soma = (v1, v2, v3) => {return v1 + v2 + v3}
+
+let valores = [5, 10, 15]
+
+Se eu apenas der um console.log(soma(valores)) a resposta será 5, 10, 15 undefined undefined, porém, se eu utilizar o spread,
+a resposta será a soma dos valores
+
+console.log(soma(...valores))
+
+agora sim a resposta é 30
+
+
+
 
 
 */
