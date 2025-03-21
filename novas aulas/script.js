@@ -118,8 +118,16 @@ console.log(soma(...valores))
 
 agora sim a resposta é 30
 
+---------------------------------------
 
+Se eu utilizo uma função que busca no meu html um elemento especifico, ela vai criar uma coleção HTML e só 
+recebe informações HTML
 
+ex: const objetos1 = document.getElementsByTagName("div")
 
+Porém, se eu utilizo o SPREAD ela vai me voltar um objeto que pode receber muito mais informações e pode ser efetuado 
+muito mais ações, como o uso de filter, forEach e map
+
+ex: const objetos2 = [...document.getElementsByTagName("div")]
 
 */
