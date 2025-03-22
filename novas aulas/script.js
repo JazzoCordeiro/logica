@@ -131,3 +131,15 @@ muito mais ações, como o uso de filter, forEach e map
 ex: const objetos2 = [...document.getElementsByTagName("div")]
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
