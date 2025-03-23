@@ -135,6 +135,21 @@ ex: const objetos2 = [...document.getElementsByTagName("div")]
 
 
 
+/* LOOPS COM FOR são divididos em duas categorias
+
+Loop FOR é um loop definido, quando eu sei o quanto ele deve ser repetido.
+ESTRUTURA:
+
+FOR(inicialição da variavel de controle; Condição de execução - aquilo que é avaliado; controle da variavel ou contador)
+
+--------------------------------------
+Loop WHILE e Do WHILE são loops indefinidos, que algo será repetido até que uma condição seja
+atendida.
+
+*/
+
+
+
 
 
 
